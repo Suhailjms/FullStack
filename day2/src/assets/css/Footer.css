@@ -1,0 +1,35 @@
+ .footer {
+  background-color: #8905a3;
+  color: #fff;
+  padding: 1px;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  transform: translate(-170px,10px);
+}
+
+.footer-content, .footer-social {
+  flex: 1;
+}
+
+.footer-content h2, .footer-social h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info, .social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li, .social-icons li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
